@@ -36,7 +36,7 @@ This project uses **OpenCV**, **Mediapipe**, and **PyCAW** to detect your hand a
    python --version
 
 ## Clone this repository:
-git clone https://github.com/yourusername/GestureVolumeControl.git
+git clone https://github.com/sakshamengineer/GestureVolumeControl.git
 cd GestureVolumeControl
 
 ## Install dependencies:
