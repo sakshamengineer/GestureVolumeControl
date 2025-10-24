@@ -24,8 +24,10 @@ while True:
     success,frame  = cap.read()
     if not success:
         break
+    frame = cv2.flip(frame,1)
     frame = hands.findhands(frame)
     ltlist = hands.findposition(frame)
+    
     if len(ltlist) != 0:
 
         x1,y1 = ltlist[4][1],ltlist[4][2]
